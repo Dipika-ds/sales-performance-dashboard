@@ -30,6 +30,27 @@ Validates the dataset after cleaning:
 
 ---
 
+## 📌 Business Insights from SQL Cleaning & Verification
+
+Running the `cleaning.sql` and `verification.sql` scripts provided several important observations about the dataset:
+
+- **Data Integrity Improved**  
+  Duplicate records were successfully removed, ensuring each transaction is unique and reliable for analysis.
+
+- **Null Handling**  
+  All critical numeric fields (`Sales`, `Profit`, `Quantity`, `Discount`) were standardized with no missing values, eliminating gaps in reporting.
+
+- **Profit Margin Calculation**  
+  Adding the `ProfitMargin` column revealed that average margins hover around ~11–12%, providing a baseline for profitability analysis.
+
+- **Discount Impact**  
+  Verification queries confirmed that higher discounts (>0.4) often correlate with negative profit margins, reinforcing the need for controlled discount strategies.
+
+- **Regional & Segment Readiness**  
+  Cleaned data is now structured to support deeper insights at the **Region, Segment, and Category** levels in Power BI.
+
+---
+
 ## 🚀 How to Use
 1. Import the Sample Superstore dataset into SQL Server.  
 2. Run `cleaning.sql` to preprocess the data.  
