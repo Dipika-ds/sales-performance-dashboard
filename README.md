@@ -82,6 +82,31 @@ Scripts are available in the [`sql_scripts/`](sql_scripts/) folder.
 
 ---
 
+## 📌 Business Insights
+
+From the Sales Performance Dashboard, several key insights emerge:
+
+- **Regional Performance**  
+  The **South region** contributes the highest sales, indicating strong market presence and potential for expansion.
+
+- **Category Profitability**  
+  The **Technology category** yields the highest profit, especially Phones and Accessories, suggesting these are growth drivers.  
+  Office Supplies show moderate profit, while Furniture has mixed results, highlighting areas for cost control.
+
+- **Discount Impact**  
+  Discounts above **0.4** correlate with negative profits, showing that aggressive discounting strategies reduce margins.  
+  Controlled discounting is essential to maintain profitability.
+
+- **Customer Segments**  
+  The **Home Office segment** drives nearly half of total sales, making it a critical customer base.  
+  The **Consumer segment** contributes ~19%, while **Corporate** adds ~31%, showing balanced distribution.
+
+- **City-Level Insights**  
+  Top cities like **Jacksonville and Atlanta** dominate sales, useful for targeted marketing and resource allocation.  
+  Smaller cities contribute less, suggesting opportunities for localized campaigns.
+
+---
+
 ## 🚀 How to Use
 
 - Clone this repo and open `SalesDashboard.pbix` in Power BI Desktop
